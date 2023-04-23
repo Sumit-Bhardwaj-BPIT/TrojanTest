@@ -1,0 +1,65 @@
+/****************Tag Selector**************/
+h1
+{
+  color: Red;
+  font-size: 50px;
+}
+p
+{
+  color: orange;
+}
+.line1
+{
+  color: grey;
+}
+.line2
+{
+  color: #251D3A;
+}
+.line3
+{
+  color: #E04D01;
+}
+
+/*
+img
+{
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+}
+*/
+img:hover
+{
+  background-color: yellow;
+}
+/****************Class Selector**************/
+
+/**class overrides tag*/
+.bacon
+{
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.Pizza
+{
+  background-color: green;
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+}
+/****************ID Selector**************/
+
+/* ids override tag selector*/
+#heading
+{
+  color: Blue;
+}
+
+/*ids are unique to only one element, its name cant be used again in same webpage */
+/*can more id  ut with different name */
+/*for a particular element there are many class whereas only one id */
